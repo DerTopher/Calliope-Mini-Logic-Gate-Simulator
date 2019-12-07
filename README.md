@@ -1,7 +1,7 @@
-# Calliope-Mini
-This project tries to use the Calliope Mini as a simulator for logic gates
+## Calliope-Mini
+#German Version below! 
 
-# -----German Version below!-----
+This project tries to use the Calliope Mini as a simulator for logic gates
 
 There are three modes. To switch between modes press A+B
 
@@ -20,6 +20,8 @@ Exit-Mode: Calliope shows, if a Signal is incoming
     Input Pin 0, Ground Pin "-"
 
 Shake: Reset
+
+#----
 
 In diesem Projekt versuche ich den Calliope Mini als Simulator für Logikgatter zu nutzen.
 
