@@ -21,7 +21,7 @@ Exit-Mode: Calliope shows, if a Signal is incoming
 
 Shake: Reset
 
-#----
+---
 
 In diesem Projekt versuche ich den Calliope Mini als Simulator für Logikgatter zu nutzen.
 
@@ -40,5 +40,4 @@ Schaltermodus: Der Calliope dient als An-/Ausschalter:
 Ausgangsmodus: Der Calliope zeigt an, ob ein Signal an Pin 0 eingeht
 
     Eingang Pin 0, Erdung Pin "-"
-
-Schütteln: Reset
+    Schütteln: Reset
