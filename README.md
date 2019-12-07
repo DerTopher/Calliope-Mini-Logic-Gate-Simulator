@@ -1,4 +1,4 @@
-## Calliope-Mini
+## Logic Gate Simulator for Calliope-Mini
 #German Version below! 
 
 This project tries to use the Calliope Mini as a simulator for logic gates
