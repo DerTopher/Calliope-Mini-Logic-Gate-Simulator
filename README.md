@@ -41,3 +41,5 @@ Ausgangsmodus: Der Calliope zeigt an, ob ein Signal an Pin 0 eingeht
 
     Eingang Pin 0, Erdung Pin "-"
     Schütteln: Reset
+    
+Schütteln: Reset
