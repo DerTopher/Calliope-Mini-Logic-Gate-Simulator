@@ -7,7 +7,7 @@ There are three modes. To switch between modes press A+B
 
 Gate-Mode: Calliope simulates logic gates:
 
-    Input: Pin 0 and 1, Output Pin 2, Ground Pin "-"
+    Input: Pin 0 and 1, Output Pin 3, Ground Pin "-"
     A: Switch gates, B: Negate
 
 Switch-Mode: Calliope simulates a switch
@@ -21,6 +21,8 @@ Exit-Mode: Calliope shows, if a Signal is incoming
 
 Shake: Reset
 
+Future plans: Make sure FlipFlops can be built. #untested
+
 ---
 
 In diesem Projekt versuche ich den Calliope Mini als Simulator für Logikgatter zu nutzen.
@@ -29,7 +31,7 @@ Es gibt 3 Modi. Moduswechsel durch gleichzeitiges Drücken von A und B
 
 Gatter Modus: Der Calliope simuliert Logikgatter:
 
-    Eingänge Pin 0 und 1, Ausgang Pin 2, Erdung Pin "-"
+    Eingänge Pin 0 und 1, Ausgang Pin 3, Erdung Pin "-"
     Knopf A: Gatterwechsel, Knopf B: Negation
 
 Schaltermodus: Der Calliope dient als An-/Ausschalter:
@@ -43,3 +45,5 @@ Ausgangsmodus: Der Calliope zeigt an, ob ein Signal an Pin 0 eingeht
     Schütteln: Reset
     
 Schütteln: Reset
+
+To-Do: Ausprobieren, ob mit der aktuellen Version FlipFlops gebaut werden können
