@@ -21,7 +21,9 @@ Exit-Mode: Calliope shows, if a Signal is incoming
 
 Shake: Reset
 
-Future plans: Make sure FlipFlops can be built. #untested
+RS-FlipFlops can be built with the simulator!
+
+To-Do: Add more complex "circuits" such as FlipFlops as well as clocks  
 
 ---
 
@@ -46,4 +48,6 @@ Ausgangsmodus: Der Calliope zeigt an, ob ein Signal an Pin 0 eingeht
     
 Schütteln: Reset
 
-To-Do: Ausprobieren, ob mit der aktuellen Version FlipFlops gebaut werden können
+RS-FlipFlops können mittels mehrer Calliope geschaltet werden
+
+To-Do: Komplexere Schaltungen wie etwa FlipFlops und Taktgeber als Modi hinzufügen.
