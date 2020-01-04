@@ -1,9 +1,9 @@
-## Logic Gate Simulator for Calliope-Mini
+## Logic Gate Simulator for Calliope-Mini V 1.1
 #German Version below! 
 
 This project tries to use the Calliope Mini as a simulator for logic gates
 
-There are three modes. To switch between modes press A+B
+There are four modes. To switch between modes press A+B
 
 Gate-Mode: Calliope simulates logic gates:
 
@@ -12,18 +12,20 @@ Gate-Mode: Calliope simulates logic gates:
 
 Switch-Mode: Calliope simulates a switch
 
-    Output: Pin 1
+    Output: Pin 0
     A: Toggle On/Off, B: Toggle Switch Style
 
 Exit-Mode: Calliope shows, if a Signal is incoming
 
     Input Pin 0, Ground Pin "-"
 
+Clock Mode: Depending on the setting the clock mode sends signal "on" (digital output: 1) every 0.5, 1, or 1,5 seconds.
+
+	Output: Pin 0
+	A: Toggle Speed, B: Toggle Sound
+	Note that you must hold the button for one full cycle of the clock. (Until 1 is sent)
+
 Shake: Reset
-
-RS-FlipFlops can be built with the simulator!
-
-To-Do: Add more complex "circuits" such as FlipFlops as well as clocks  
 
 ---
 
@@ -38,7 +40,7 @@ Gatter Modus: Der Calliope simuliert Logikgatter:
 
 Schaltermodus: Der Calliope dient als An-/Ausschalter:
 
-    Ausgang: Pin 1
+    Ausgang: Pin 0
     Knopf A: Wechsel zwischen An/Aus, Knopf B: Anzeigeart ändern
 
 Ausgangsmodus: Der Calliope zeigt an, ob ein Signal an Pin 0 eingeht
@@ -46,8 +48,10 @@ Ausgangsmodus: Der Calliope zeigt an, ob ein Signal an Pin 0 eingeht
     Eingang Pin 0, Erdung Pin "-"
     Schütteln: Reset
     
+Taktgebermodus: Der Calliope gibt das Signal "An" (Digitales Signal "1") jede halbe, ganze oder alle 1,5 Sekunden aus.
+
+    Ausgang: Pin 0
+    Knopf A: Takt ändern, Knopf B: Ton an/aus
+ 
+
 Schütteln: Reset
-
-RS-FlipFlops können mittels mehrer Calliope geschaltet werden
-
-To-Do: Komplexere Schaltungen wie etwa FlipFlops und Taktgeber als Modi hinzufügen.
